@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><defs>
+        <style>
+            .cls-1{fill:#008cc8}.cls-2{fill:#fff}
+        </style>
+    </defs><symbol id="icon-facebook" viewBox="0 0 30 30">
+    
+    <title>
+        Asset 1
+    </title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="SocialMedia">
+            <g id="facebook">
+                <path class="cls-1" d="M0 0h30v30H0z"/>
+                <path id="f" class="cls-2" d="M16.55 25v-9.12h3.06l.46-3.55h-3.52v-2.28c0-1 .28-1.73 1.76-1.73h1.88V5.14A25.05 25.05 0 0 0 17.45 5c-2.71 0-4.57 1.66-4.57 4.7v2.62H9.81v3.55h3.07V25z"/>
+            </g>
+        </g>
+    </g>
+</symbol></svg>
