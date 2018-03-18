@@ -27,7 +27,7 @@
     <!-- BEGIN WRAPPER -->
     <div class="wrapper">
       <!-- begin main  -->
-      <main class="main page-founder">
+      <main class="main page-curriculum">
         <!-- begin header -->
         <div class="header">
           <div class="container">
@@ -87,7 +87,7 @@
         <!-- begin hero  -->
         <div class="hero-static">
           <div class="container">
-            <div class="hero-static"> <img src="img/slider_orange.jpg" alt="RDLab" class="hero-static__banner"> </div>
+            <div class="hero-static"> <img src="img/hero-static3.jpg" alt="RDLab" class="hero-static__banner"> </div>
           </div>
         </div>
         <!-- end hero -->
@@ -96,22 +96,102 @@
           <div class="container">
             <div class="sticker">
               <div class="sticker__inner">
-                <div class="sticker__block bg-green">
-                  <h1 class="sticker__title">OUR ADVISOR</h1>
-                  <p class="sticker__heading text-bold">John Gu, (etc.)</p>
+                <div class="sticker__block bg-orange">
+                  <h1 class="sticker__title">CLUB TIMETABLE</h1>
                 </div>
               </div>
             </div>
-            <div class="founder__container">
-              <div class="row">
-                <div class="col col-image"> <img src="img/john_gu.png" alt="RDLab"> </div>
-                <div class="col col-text">
-                  <p class="paragraph"><span class="text-semibold">John Gu</span> graduated from MIT with four degrees, all completed in four years, B.S. in Computer Science and Management Science, M.Eng. in Computer Science, and Minors in Economics and Mathematics. In US,
-                    he once worked as research scientist, researched and implemented statistical arbitrage models for U.S. equities trading and systematic CTA models to trade financial, commodity and currency futures and forwards.</p>
-                  <p class="paragraph">After he moved to Singapore, he co-founded frame.ai, a collaborative intelligence platform to apply smart human-machine collaboration in the servicing of customer requests over chat platforms (e.g. Slack, WhatsApp, FB Messenger).</p>
-                  <p class="paragraph">He is also the founder and CEO of AlphaLab Capital Pte Ltd, where he is leading a team of computer engineers and technologists to build a world-class algorithmic trading platform for digital assets.</p>
+            <div class="curriculum__tabs">
+              <div class="tabs__heading">
+                <div class="row">
+                  <div class="col">
+                    <h5>CLUB MEMBERSHIP</h5>
+                  </div>
+                  <div class="col">
+                    <h5>2018/04 - 2018/10 SCHEDULE</h5>
+                    <p class="paragraph">The schedule is subjected to changes, please email or call us for any clarifications.</p>
+                  </div>
                 </div>
               </div>
+              <div class="tabbed">
+                <ul class="tabs__nav">
+                  <li>
+                    <div class="tabs__label tabs--green">
+                      <div class="col">
+                        <p class="tabs__name">1 MONTH MEMBERSHIP</p>
+                        <p class="tabs__desc">(BASIC)</p>
+                      </div>
+                      <div class="col"> <span class="tabs__chevrons"><span class="icon-cheveron-right"></span> <span class="icon-cheveron-right"></span> </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tabs__label tabs--blue">
+                      <div class="col">
+                        <p class="tabs__name">1 MONTH MEMBERSHIP</p>
+                        <p class="tabs__desc">(VIP)</p>
+                      </div>
+                      <div class="col"> <span class="tabs__chevrons"><span class="icon-cheveron-right"></span> <span class="icon-cheveron-right"></span> </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="tabs__label tabs--orange">
+                      <div class="col">
+                        <p class="tabs__name">3 MONTH MEMBERSHIP</p>
+                        <p class="tabs__desc">(BASIC)</p>
+                      </div>
+                      <div class="col"> <span class="tabs__chevrons"><span class="icon-cheveron-right"></span> <span class="icon-cheveron-right"></span> </span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="tabs__body">
+                  <div class="schedule">
+                    <div class="schedule__item"> <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank" class="schedule__link underlined green">View schedule</a> </div>
+                    <div class="schedule__item"> <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank" class="schedule__link underlined blue">View schedule</a> </div>
+                    <div class="schedule__item"> <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank" class="schedule__link underlined orange">View schedule</a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form form-wrapper shadowed form--orange">
+              <h3 class="form__caption">MEMBERSHIP SUBSCRIPTION FORM</h3>
+              <div class="divider"></div>
+              <div class="form__inner">
+                <p class="form__tip">Once your form is submitted, our staff will get back to you as soon as possible.</p>
+                <form action="#" class="form__fields">
+                  <div class="row row--3">
+                    <div class="col">
+                      <div class="form__field"> <label for="formName">Name:</label> <input type="text" class="shadowed" id="formName"> </div>
+                    </div>
+                    <div class="col">
+                      <div class="form__field"> <label for="formEmail">Email:</label> <input type="email" class="shadowed" id="formEmail"> </div>
+                    </div>
+                    <div class="col">
+                      <div class="form__field"> <label for="formSelect">Membership <br>Plan:</label>
+                        <!-- Custom select structure -->
+                        <div class="select_mate shadowed" data-mate-select="active"> <select name="" onchange="" onclick="return false;" id="formSelect">
+                    <option value="1">1 Month Membership (Basic)</option>
+                    <option value="2" >1 Month Membership (VIP)</option>
+                    <option value="3">3 Month Membership (VIP)</option>
+                    </select>
+                          <p class="selecionado_opcion selectTrigger"></p> <span class="icon_select_mate selectTrigger">
+                      <svg fill="#b92211" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+                          <path d="M0-.75h24v24H0z" fill="none"/>
+                      </svg>
+                    </span>
+                          <div class="cont_list_select_mate">
+                            <ul class="cont_select_int shadowed"> </ul>
+                          </div>
+                        </div>
+                        <!-- Custom select structure -->
+                      </div>
+                    </div>
+                  </div> <button class="form__submit-btn">Send</button> </form>
+              </div>
+              <div class="divider"></div>
             </div>
           </div>
         </div>
